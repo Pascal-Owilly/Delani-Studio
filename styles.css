@@ -1,0 +1,19 @@
+nav {
+    background: url('/images/backgrounds/h_img.jpg')center/cover no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   color: #f1f1f1f1;
+   text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+}

@@ -4,7 +4,7 @@ body {
 
 .navbar {
     background: url('images/backgrounds/h_img.jpg')center/cover no-repeat;
-    min-height: 100vh;
+    min-height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,21 +16,22 @@ body {
 
 .logo {
     margin-right: 25px;
-    margin-top: 25px;
+    margin-top: px;
 }
 
-nav>h1 {
+nav > h1 {
     font-size: 50px;
     font-weight: 400;
     line-height: 5rem;
     margin-top: 14px;
 }
 
-.navbar>p {
-    margin-top: 6px;
+.navbar > p {
+    margin-top: 60px;
     font-size: 15.6px;
     font-weight: 500;
 }
-.mouse-click {
-    margin-top: -100px;
+
+.img-fluid {
+    margin-top: vh;
 }

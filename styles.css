@@ -74,3 +74,18 @@ form:nth-child(3){
 span {
     margin-right: -50px;
 }
+.social {
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width:769px){
+.img {
+    margin: 10px 10 10 15px;
+ } 
+}

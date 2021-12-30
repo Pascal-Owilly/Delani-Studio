@@ -4,7 +4,7 @@ body {
 
 .navbar {
     background: url('images/backgrounds/h_img.jpg')center/cover no-repeat;
-    min-height:100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +32,14 @@ nav > h1 {
     font-size: 15px;
     font-weight: 500;
 
-    
+
 }
+
 .container {
-text-align: center;
-padding-top: 48px;
+    text-align: center;
+    padding-top: 48px;
 }
+
 .container-fluid {
     background: url('images/backgrounds/s_image.jpg')center/cover no-repeat;
     min-height: 60vh;
@@ -46,6 +48,20 @@ padding-top: 48px;
     padding-top: 125px;
     margin-top: 50px;
 }
+
 .container-fluid > h1 {
     font-weight: 700;
+}
+.form-section {
+    background: url('images/backgrounds/c_image.jpg')center/cover no-repeat;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+}
+form > input {
+    background-color: transparent;
+    color: #fff;
+}
+form:nth-child(3){
+    background-color: white;
 }

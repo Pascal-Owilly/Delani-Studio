@@ -15,23 +15,37 @@ body {
 }
 
 .logo {
-    margin-right: 25px;
-    margin-top: px;
+    margin-right: 7px;
+    padding-top: 29px;
+    margin-right: 29px;
 }
 
 nav > h1 {
     font-size: 50px;
     font-weight: 400;
-    line-height: 5rem;
-    margin-top: 14px;
+    line-height: 5.934rem;
+    padding-top: 29px;
+    margin-right: 29px;
 }
 
 .navbar > p {
-    margin-top: 60px;
-    font-size: 15.6px;
+    font-size: 15px;
     font-weight: 500;
-}
 
-.img-fluid {
-    margin-top: vh;
+    
+}
+.container {
+text-align: center;
+padding-top: 48px;
+}
+.container-fluid {
+    background: url('images/backgrounds/s_image.jpg')center/cover no-repeat;
+    min-height: 60vh;
+    text-align: center;
+    color: white;
+    padding-top: 125px;
+    margin-top: 50px;
+}
+.container-fluid > h1 {
+    font-weight: 700;
 }

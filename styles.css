@@ -42,7 +42,7 @@ nav > h1 {
 
 .container-fluid {
     background: url('images/backgrounds/s_image.jpg')center/cover no-repeat;
-    min-height: 60vh;
+    min-height: 70vh;
     text-align: center;
     color: white;
     padding-top: 125px;
@@ -54,7 +54,7 @@ nav > h1 {
 }
 .form-section {
     background: url('images/backgrounds/c_image.jpg')center/cover no-repeat;
-    height: 50vh;
+    height: 60vh;
     color: #fff;
     text-align: center;
 }

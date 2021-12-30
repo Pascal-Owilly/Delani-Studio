@@ -57,6 +57,7 @@ nav > h1 {
     height: 60vh;
     color: #fff;
     text-align: center;
+
 }
 form > input {
     background-color: transparent;
@@ -64,4 +65,12 @@ form > input {
 }
 form:nth-child(3){
     background-color: white;
+}
+.form-section {
+    padding-top: 35px;
+    height: 90vh;
+}
+
+span {
+    margin-right: -50px;
 }

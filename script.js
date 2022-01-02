@@ -10,6 +10,16 @@ $(document).ready(function(){
    $('#toggleThirdIcon').click(function(){
        $('.hideThirdIcon').toggle();
        $('.showThirdText').toggle();
+   });
+
+   $('#hover').mouseenter(function(){
+       $('.work4').toggle();
+       $('.hover1').toggle();
    })
+   $('#hover').mouseleave(function(){
+    $('.work4').toggle();
+    $('.hover1').toggle();
+})
+
 
 });

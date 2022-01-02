@@ -12,13 +12,13 @@ $(document).ready(function(){
        $('.showThirdText').toggle();
    });
 
-   $('#hover').mouseenter(function(){
+   $('#firstProject').mouseenter(function(){
        $('.work4').toggle();
        $('.hover1').toggle();
    })
-   $('#hover').mouseleave(function(){
-    $('.work4').toggle();
-    $('.hover1').toggle();
+   $('#firstProject').mouseleave(function(){
+    $('.work4').show();
+    $('.hover1').show();
 })
 
 

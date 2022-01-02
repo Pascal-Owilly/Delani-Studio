@@ -128,8 +128,14 @@ color: white;
 .img {
     margin: 10px 10 10 15px;
  } 
+}
+@media only screen and (max-width:720px){
+    .hoverProjectOne {
+        color: green;
+        width: 87%;
+        height: 59.9%;
+        margin-top: -385px;
+        padding: 120px;
 
-
-
-
+    }
 }

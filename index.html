@@ -9,6 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="script.js">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -21,7 +22,7 @@
         </div>
 
 
-        <img src="images/mouse_click.png" class="img-fluid mx-auto d-block" alt="Mouse Click"
+        <img src="images/mouse_click.png" class="img-fluid mx-auto d-block" id="mouseClick" alt="Mouse Click"
             style="margin-top: 180px;padding-bottom: 37px;">
 
     </nav>
@@ -41,81 +42,136 @@
             based on your rquirements, we can provide a complete offering or just the pieces you need.</p>
     </div>
 
+
     <div class="container">
         <h2 style="padding: 0 0 35px 0;font-weight: 450;">WHAT WE DO</h2>
         <div class="row">
             <div class="col-md-4">
-                <img src="images/services_icons/design_icon.png" alt="image" style="margin-bottom: 20px;">
+                <div id="toggleTextFirstIcon">
+                    <div class="hideFirstIcon">
+                        <img id="design" src="images/services_icons/design_icon.png" alt="image" onclick="myFunction()"
+                            style="margin-bottom: 20px;">
+                    </div>
+
+                    <div class="showFirstText">
+                        <h3>DESIGN</h3>
+                        <p>Our design practice offers full range of services
+                            including brand strategy, interaction and visual design
+                            and user experience testing. </p>
+
+                        <p>Throughout your project, our designers create and
+                            implement visual design and workflows, solicit user
+                            feedback and work with you to make sure what gets built
+                            is what is needed.</p>
+                    </div>
+                </div>
             </div>
+
+
             <div class="col-md-4">
-                <img src="images/services_icons/dev_icon.png" alt="image" style="margin-bottom: 20px;">
+                <div id="toggleSecondIcon">
+                    <div class="hideSecondIcon">
+                        <img id="dev" class="showClass" src="images/services_icons/dev_icon.png" alt="image"
+                            style="margin-bottom: 20px;">
+                    </div>
+                    <div class="showSecondText">
+                        <h3>DEVELOPMENT</h3>
+                        <p>All engineers are fluent in the latest enterprise, mobile
+                            and web development technologies.</p>
+
+                        <p>They collaborate with your team to write, and improve
+                            code on a daily basis, using a proven practice such as
+                            test-driven development and pair programming.</p>
+                    </div>
+                </div>
             </div>
+
             <div class="col-md-4">
-                <img src="images/services_icons/product_icon.png" alt="image" style="margin-bottom: 20px;">            
+                <div id="toggleThirdIcon">
+                    <div class="hideThirdIcon">
+                        <img id="product" class="showClass" src="images/services_icons/product_icon.png" alt="image"
+                            style="margin-bottom: 20px;">
+                    </div>
+                    <div class="showThirdText">
+                        <h3>PRODUCT MANAGEMENT</h3>
+                        <p>Planning and development is iterative. Because we are
+                            constantly coding and testing, the product we build are always ready to go live.
+                            <p>This iterative process allows for changes as business
+                                requirements evolve
+                    </div>
+
+                </div>
             </div>
-         </div>
+        </div>
+
+        <div class="container" style="margin-top: 50px;">
+            <h2>PORTFOLIO</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="work4" src="images/portfolio/work4.jpg" alt="image"
+                        style="width: 98%;margin-bottom: 5px;">
+                    <p class="project">Project one</p>
+                </div>
+
+                <div class="col-md-3">
+                    <img class="work3" src="images/portfolio/work3.jpg" alt="image"
+                        style="width: 98%;margin-bottom: 5px;">
+                </div>
+
+                <div class="col-md-3">
+                    <img src="images/portfolio/work2.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
+                </div>
+
+                <div class="col-md-3">
+                    <img src="images/portfolio/work1.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md-3">
+                    <img src="images/portfolio/work5.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/portfolio/work6.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/portfolio/work7.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/portfolio/work8.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="form-section">
+        <h2 style="padding: 10px 0 20px 0;">CONTACT US</h2>
+
+        <form action="">
+            <input type="text" placeholder="Name..." style="width: 30%;margin-right: 40px;border: 1px solid #fff;">
+            <input type="email" placeholder="Email..."
+                style="width: 22.89%;margin-left: -36px;border: 1px solid white;"><br><br>
+            <input type="text" placeholder="Your message here..."
+                style="height: 36.54vh;width: 50%;border: 1px solid #fff;border-radius: 0%;">
+        </form>
     </div>
 
-        <div class="container">
-                <h2>PORTFOLIO</h2>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work4.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work3.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work2.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work1.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                </div>
+    <div class="social">
+        <img src="images/social_icons/twitter.png" alt="" class="social">
+        <img src="images/social_icons/dribble.png" alt="" class="social">
+        <img src="images/social_icons/facebook.png" alt="" class="social">
+        <img src="images/social_icons/g_plus.png" alt="" class="social">
+        <img src="images/social_icons/skype.png" alt="" class="social">
+        <img src="images/social_icons/stumble_upon.png" alt="" class="social">
+        <img src="images/social_icons/skype.png" alt="" class="social">
+        <img src="images/social_icons/behance.png" alt="" class="social">
+        <img src="images/social_icons/pinterest.png" alt="" class="social">
+        <img src="images/social_icons/flickr.png" alt="" class="social">
+    </div>
+    <div class="footer">
+        <p style="font-size: 15px;">DELANI STUDIO <br> 2019</p>
+    </div>
 
-                <div class="row" style="margin-top: 50px;">
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work5.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work6.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work7.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/portfolio/work8.jpg" alt="image" style="width: 98%;margin-bottom: 5px;">
-                    </div>
-                </div>
-            </div>
-        </div><br>
-        <div class="form-section">
-            <h2 style="padding: 10px 0 20px 0;">CONTACT US</h2>
-
-            <form action="">
-                <input type="text" placeholder="Name..." style="width: 30%;margin-right: 40px;border: 1px solid #fff;">
-                <input type="email" placeholder="Email..."
-                    style="width: 22.89%;margin-left: -36px;border: 1px solid white;"><br><br>
-                <input type="text" placeholder="Your message here..."
-                    style="height: 36.54vh;width: 50%;border: 1px solid #fff;border-radius: 0%;">
-            </form>
-        </div>
-
-        <div class="social">
-            <img src="images/social_icons/twitter.png" alt="" class="social">
-            <img src="images/social_icons/dribble.png" alt="" class="social">
-            <img src="images/social_icons/facebook.png" alt="" class="social">
-            <img src="images/social_icons/g_plus.png" alt="" class="social">
-            <img src="images/social_icons/skype.png" alt="" class="social">
-            <img src="images/social_icons/stumble_upon.png" alt="" class="social">
-            <img src="images/social_icons/skype.png" alt="" class="social">
-            <img src="images/social_icons/behance.png" alt="" class="social">
-            <img src="images/social_icons/pinterest.png" alt="" class="social">
-            <img src="images/social_icons/flickr.png" alt="" class="social">
-        </div>
-        <div class="footer">
-            <p style="font-size: 15px;">DELANI STUDIO <br> 2019</p>
-        </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

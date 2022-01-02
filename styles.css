@@ -84,22 +84,23 @@ span {
     padding-top: 10px;
 }
 
-.work4:hover {
-    color: green;
-    opacity: .9;
-}
-.work3:hover {
-    background-color: green;
-    opacity: .9;
-}
-
-.hideClass {
+.showFirstText {
     display: none;
 }
+.showSecondText {
+    display: none;
+}
+.showThirdText {
+    display: none;
+}
+
+
+
+
 
 @media only screen and (min-width:769px){
 .img {
     margin: 10px 10 10 15px;
  } 
-}
+
 

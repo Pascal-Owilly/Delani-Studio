@@ -111,20 +111,35 @@ span {
 
 
 
+
 .hover1{
     display: none;
 }
-
-span {
-background-color: green;
-width: 100%;
-color: white;
-
-
+.hover2 {
+    display: none;
+}
+.hover3 {
+    display: none;
+}
+.hover4 {
+    display: none;
+}
+.hover5 {
+    display: none;
+}
+.hover6 {
+    display: none;
+}
+.hover7 {
+    display: none;
+}
+.hover8 {
+    display: none;
 }
 
 
-@media only screen and (min-width:769px){
+
+ @media only screen and (min-width:769px){
 .img {
     margin: 10px 10 10 15px;
  } 

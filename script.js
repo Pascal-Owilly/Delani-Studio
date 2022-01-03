@@ -113,7 +113,25 @@ $('#messageForm').submit(function(event){
     var userEmail = $('#emailInput').val();
     var message = $('#messageInput').val();
 
-    alert('Hello ' + userName + ' , I have received your message and ' + ' I will get back to you in a few. ' + ' Check your email,' + ' Thank you for contacting me ' + userName );
+    
+
+
+if (userName.length <= 1 ){
+    alert('Please enter a valid user name');
+}
+else if (userEmail.length <= 10){
+    alert('Enter a valid email address')
+}
+else if(message.length < 1){
+    alert('Input your message below')
+}
+else if(message.length <= 1){
+    alert('Please enter a valid message')
+}
+
+else {
+    alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' Check your email,' + ' Thank you for contacting us ' + userName );
+}
 })
 
 });

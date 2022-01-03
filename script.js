@@ -19,85 +19,85 @@ $(document).ready(function(){
    });
    $('#project1').mouseleave(function(){
        $(this).css('background', 'transparent')
-    $('#firstOverlay').toggle(); 
-    $('#projectOne').toggle();
+    $('#firstOverlay').fadeToggle(500); 
+    $('#projectOne').fadeToggle(500);
 });
 
 $('#project2').mouseenter(function(){
-    $('#projectTwo').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#secondOverlay').toggle();
-    $('#projectTwo').toggle();
+    $('#projectTwo').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px', }) ;
+    $('#secondOverlay').fadeToggle(500);
+    $('#projectTwo').fadeToggle(500);
 });
 $('#project2').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#secondOverlay').toggle(); 
- $('#projectTwo').toggle();
+ $('#secondOverlay').fadeToggle(500);
+ $('#projectTwo').fadeToggle(500);;
 });
 
 $('#project3').mouseenter(function(){
     $('#projectThree').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#thirdOverlay').toggle();
-    $('#projectThree').toggle();
+    $('#thirdOverlay').fadeToggle(500);
+    $('#projectThree').fadeToggle(500);
 });
 $('#project3').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#thirdtOverlay').toggle(); 
- $('#projectThree').toggle();
+ $('#thirdtOverlay').fadeToggle(500);
+ $('#projectThree').fadeToggle(500);
 });
 
 $('#project4').mouseenter(function(){
     $('#projectFour').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#fourthOverlay').toggle();
-    $('#projectFour').toggle();
+    $('#fourthOverlay').fadeToggle(500);
+    $('#projectFour').fadeToggle(500);
 });
 $('#project4').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#fourthOverlay').toggle(); 
- $('#projectFour').toggle();
+ $('#fourthOverlay').fadeToggle(500);
+ $('#projectFour').fadeToggle(500);
 });
 
 $('#project5').mouseenter(function(){
     $('#projectFive').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#fifthOverlay').toggle();
-    $('#projectFive').toggle();
+    $('#fifthOverlay').fadeToggle(500);
+    $('#projectFive').fadeToggle(500);
 });
 $('#project5').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#fifthtOverlay').toggle(); 
- $('#projectFive').toggle();
+ $('#fifthtOverlay').fadeToggle(500); 
+ $('#projectFive').fadeToggle(500);
 });
 
 $('#project6').mouseenter(function(){
     $('#projectSix').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#SixthOverlay').toggle();
-    $('#projectSix').toggle();
+    $('#SixthOverlay').fadeToggle(500);
+    $('#projectSix').fadeToggle(500);
 });
 $('#project6').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#sixthOverlay').toggle(); 
- $('#projectSix').toggle();
+ $('#sixthOverlay').fadeToggle(500);
+ $('#projectSix').fadeToggle(500);
 });
 
 $('#project7').mouseenter(function(){
     $('#projectSeven').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#SeventhOverlay').toggle();
-    $('#projectSeven').toggle();
+    $('#SeventhOverlay').fadeToggle(500);
+    $('#projectSeven').fadeToggle(500);
 });
 $('#project7').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#seventhOverlay').toggle(); 
- $('#projectSeven').toggle();
+ $('#seventhOverlay').fadeToggle(500);
+ $('#projectSeven').fadeToggle(500);
 });
 
 $('#project8').mouseenter(function(){
     $('#projectEight').css({ 'background': 'rgba(38, 31, 15,0.5', 'border': '10px solid #fff', 'font-weight': '500', 'font-size': '20px' }) ;
-    $('#eighthOverlay').toggle();
-    $('#projectEight').toggle();
+    $('#eighthOverlay').fadeToggle(500);
+    $('#projectEight').fadeToggle(500);
 });
 $('#project8').mouseleave(function(){
     $(this).css('background', 'transparent')
- $('#eighthOverlay').toggle(); 
- $('#projectEight').toggle();
+ $('#eighthOverlay').fadeToggle(500);
+ $('#projectEight').fadeToggle(500);
 });
 
 

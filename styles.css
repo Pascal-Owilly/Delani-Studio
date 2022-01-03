@@ -20,7 +20,7 @@ body {
     margin-right: 29px;
 }
 
-nav > h1 {
+nav>h1 {
     font-size: 50px;
     font-weight: 400;
     line-height: 5.934rem;
@@ -28,7 +28,7 @@ nav > h1 {
     margin-right: 29px;
 }
 
-.navbar > p {
+.navbar>p {
     font-size: 15px;
     font-weight: 500;
 
@@ -49,9 +49,10 @@ nav > h1 {
     margin-top: 50px;
 }
 
-.container-fluid > h1 {
+.container-fluid>h1 {
     font-weight: 700;
 }
+
 .form-section {
     background: url('images/backgrounds/c_image.jpg')center/cover no-repeat;
     height: 60vh;
@@ -59,7 +60,8 @@ nav > h1 {
     text-align: center;
 
 }
-form > input {
+
+form>input {
     background-color: transparent;
     color: #fff;
 }
@@ -72,11 +74,13 @@ form > input {
 span {
     margin-right: -50px;
 }
+
 .social {
     padding-top: 20px;
     text-align: center;
     margin: 10px;
 }
+
 .footer {
     text-align: center;
     padding-top: 10px;
@@ -85,19 +89,26 @@ span {
 .showFirstText {
     display: none;
 }
+
 .showSecondText {
     display: none;
 }
+
 .showThirdText {
     display: none;
 }
-#projectOne, #projectTwo, 
-#projectThree, #projectFour,
-#projectFive, #projectSix,
-#projectSeven, #projectEight {
-    
+
+#projectOne,
+#projectTwo,
+#projectThree,
+#projectFour,
+#projectFive,
+#projectSix,
+#projectSeven,
+#projectEight {
+
     color: white;
-    padding: 50px; 
+    padding: 50px;
     height: 198px;
     width: 238px;
     position: absolute;
@@ -123,24 +134,30 @@ span {
 
 
 
- @media only screen and (min-width:769px){
-.img {
-    margin: 10px 10 10 15px;
- } 
+@media only screen and (min-width:769px) {
+    .img {
+        margin: 10px 10 10 15px;
+    }
 }
-@media only screen and (max-width:720px){
-    #projectOne, #projectTwo, 
-#projectThree, #projectFour,
-#projectFive, #projectSix,
-#projectSeven, #projectEight {
-    display: flex;
-    width: 85%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 47.55%;
-    flex-wrap: wrap;
-    flex-basis: 50%;
-    flex-direction: column;
+
+@media only screen and (max-width:720px) {
+
+    #projectOne,
+    #projectTwo,
+    #projectThree,
+    #projectFour,
+    #projectFive,
+    #projectSix,
+    #projectSeven,
+    #projectEight {
+        display: flex;
+        width: 85%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 47.55%;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        flex-direction: column;
 
     }
 }

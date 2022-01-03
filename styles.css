@@ -93,49 +93,25 @@ span {
 .showThirdText {
     display: none;
 }
-.hoverProjectOne {
-    background-color: transparent;
+#projectOne, #projectTwo, 
+#projectThree, #projectFour,
+#projectFive, #projectSix,
+#projectSeven, #projectEight {
+    
     color: white;
     padding: 50px; 
-    width: 95%;
-    height: 96.8%;
-    margin-left: 10px;
-    border: 10px solid white;
-    height: 192px;
-    width: 233px;
-    margin-top: -248.77px;
+    height: 198px;
+    width: 238px;
     position: absolute;
+    margin-left: 8px;
+    margin-top: 2px;
+    display: none;
+}
 
-}
 
 
 
 
-
-.hover1{
-    display: none;
-}
-.hover2 {
-    display: none;
-}
-.hover3 {
-    display: none;
-}
-.hover4 {
-    display: none;
-}
-.hover5 {
-    display: none;
-}
-.hover6 {
-    display: none;
-}
-.hover7 {
-    display: none;
-}
-.hover8 {
-    display: none;
-}
 
 
 
@@ -145,12 +121,18 @@ span {
  } 
 }
 @media only screen and (max-width:720px){
-    .hoverProjectOne {
-        color: green;
-        width: 87%;
-        height: 62.9%;
-        margin-top: -450px;
-        padding: 120px;
+    #projectOne, #projectTwo, 
+#projectThree, #projectFour,
+#projectFive, #projectSix,
+#projectSeven, #projectEight {
+    display: flex;
+    width: 85%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 47.55%;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    flex-direction: column;
 
     }
 }

@@ -190,4 +190,17 @@ span {
         flex-direction: column;
 
     }
+    #mc_embed_signup {
+        background: green;
+        clear: left;
+        font-family: Helvetica, Arial, sans-serif;
+        right: 30%;
+        margin: auto;
+        color: #fff;
+        height: 430px;
+        border-radius: 20px;
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 350px;
+    }
 }

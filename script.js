@@ -177,9 +177,7 @@ $(document).ready(function () {
             alert('Enter your email address too')
         } else if (message === '') {
             alert('Input your message below')
-        } else if (message.length <= 1) {
-            alert('Please enter at least one line of text')
-        } else {
+        }  else {
             alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' Thank you for contacting us ' + userName);
         }
 

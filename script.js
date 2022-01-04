@@ -155,8 +155,12 @@ $(document).ready(function () {
         var userEmail = $('#emailInput').val();
         var message = $('#messageInput').val();
 
-        $('.mailchimp').fadeToggle(1000);
-        $('.form-section').fadeToggle(1000);
+
+            $('.mailchimp').fadeToggle(1000);
+            $('.form-section').fadeToggle(1000);
+            $('body').css('opacity', '0.5')
+    
+        
 
 
         if (userName === '') {
@@ -168,7 +172,7 @@ $(document).ready(function () {
         } else if (message.length <= 10) {
             alert('Please enter at least one line of text')
         } else {
-            alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' subscribe to the pop up form below,' + ' Thank you for contacting us ' + userName);
+            alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' Thank you for contacting us ' + userName);
         }
 
 

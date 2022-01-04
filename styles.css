@@ -151,6 +151,9 @@ span {
     margin: auto;
     color: #fff;
     border-radius: 20px ;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 350px;
     }
 
     .mailchimp {

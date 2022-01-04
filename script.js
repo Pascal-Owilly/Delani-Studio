@@ -1,4 +1,12 @@
 $(document).ready(function () {
+
+    $('#mouseClick').mouseenter(function(){
+        $('#mouseClick').css({'transform': 'rotate(360deg)', 'transition':'2s'});
+    });
+    $('#mouseClick').mouseleave(function(){
+        $('#mouseClick').css({'transform': 'rotate(-180deg)', 'transition':'2s'});
+    });
+
     $('#toggleTextFirstIcon').click(function () {
         $('.hideFirstIcon').toggle(500);
         $('.showFirstText').toggle(500);

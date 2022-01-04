@@ -148,12 +148,6 @@ $(document).ready(function () {
         $('#projectEight').fadeToggle(500);
     });
 
-    // $('#formContent').submit(function(event){
-    //     event.preventDefault();
-    //     var info = $('#textInput').val();
-    //     $('#userText').html(info);
-    // });
-
 
     $('#messageForm').submit(function (event) {
         event.preventDefault();
@@ -161,20 +155,29 @@ $(document).ready(function () {
         var userEmail = $('#emailInput').val();
         var message = $('#messageInput').val();
 
+        $('.mailchimp').fadeToggle(1000);
+        $('.form-section').fadeToggle(1000);
 
 
-
-        if (userName.length <= 1) {
-            alert('Please enter a valid user name');
-        } else if (userEmail.length <= 10) {
-            alert('Enter a valid email address')
-        } else if (message.length < 1) {
+        if (userName === '') {
+            alert('Please enter your user name');
+        } else if (userEmail === '') {
+            alert('Enter your email address too')
+        } else if (message === '') {
             alert('Input your message below')
-        } else if (message.length <= 1) {
-            alert('Please enter a valid message')
+        } else if (message.length <= 10) {
+            alert('Please enter at least one line of text')
         } else {
-            alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' Check your email,' + ' Thank you for contacting us ' + userName);
+            alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' subscribe to the pop up form below,' + ' Thank you for contacting us ' + userName);
         }
+
+
+
+//reset form after submission
+        document.getElementById('messageForm').reset();
+
     })
+
+   
 
 });

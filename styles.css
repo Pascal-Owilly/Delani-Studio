@@ -32,7 +32,6 @@ nav>h1 {
     font-size: 15px;
     font-weight: 500;
 
-
 }
 
 .container {
@@ -61,15 +60,28 @@ nav>h1 {
 
 }
 
-form>input {
+form > input {
     background-color: transparent;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .form-section {
     padding-top: 35px;
     height: 90vh;
 }
+
+::placeholder {
+    color: #fff;
+    font-weight: 800;
+    position: absolute;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+ input:nth-child(3){
+    position: absolute;
+}
+
 
 span {
     margin-right: -50px;
@@ -128,7 +140,22 @@ span {
     margin-top: 5px;
 }
 
+/* Begin Mailchimp Signup Form */
 
+#mc_embed_signup {
+    background: #000092; 
+    clear:left; 
+    font-family: Helvetica,Arial,sans-serif; 
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    color: #fff;
+    border-radius: 20px ;
+    }
+
+    .mailchimp {
+        display: none;
+    }
 
 
 

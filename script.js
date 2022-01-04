@@ -156,11 +156,11 @@ $(document).ready(function () {
         var message = $('#messageInput').val();
 
 
-            $('.mailchimp').fadeToggle(1000);
-            $('.form-section').fadeToggle(1000);
-            $('body').css('opacity', '0.5')
-    
-        
+        $('.mailchimp').fadeToggle(1000);
+        $('.form-section').fadeToggle(1000);
+        $('body').css('opacity', '0.5')
+
+
 
 
         if (userName === '') {
@@ -177,11 +177,11 @@ $(document).ready(function () {
 
 
 
-//reset form after submission
+        //reset form after submission
         document.getElementById('messageForm').reset();
 
     })
 
-   
+
 
 });

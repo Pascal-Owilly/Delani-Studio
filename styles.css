@@ -60,7 +60,7 @@ nav>h1 {
 
 }
 
-form > input {
+form>input {
     background-color: transparent;
     color: rgba(255, 255, 255, 0.9);
 }
@@ -78,7 +78,7 @@ form > input {
     margin-left: 5px;
 }
 
- input:nth-child(3){
+input:nth-child(3) {
     position: absolute;
 }
 
@@ -143,22 +143,22 @@ span {
 /* Begin Mailchimp Signup Form */
 
 #mc_embed_signup {
-    background: #000092; 
-    clear:left; 
-    font-family: Helvetica,Arial,sans-serif; 
+    background: #000092;
+    clear: left;
+    font-family: Helvetica, Arial, sans-serif;
     width: 50%;
     height: 65%;
     margin: auto;
     color: #fff;
-    border-radius: 20px ;
+    border-radius: 20px;
     position: absolute;
     margin-top: -400px;
     margin-left: 350px;
-    }
+}
 
-    .mailchimp {
-        display: none;
-    }
+.mailchimp {
+    display: none;
+}
 
 
 

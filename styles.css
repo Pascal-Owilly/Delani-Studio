@@ -188,6 +188,7 @@ span {
         flex-wrap: wrap;
         flex-basis: 50%;
         flex-direction: column;
+        display: none;
 
     }
     #mc_embed_signup {

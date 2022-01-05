@@ -24,4 +24,4 @@ Computers, phones with browsers and internet
 ## Below is a link to my repo
  *https://pascal-owilly.github.io/Delani-Studio/*
   
-*Check out the licence information on top of te page*
+*Check out the licence information on top of the page*

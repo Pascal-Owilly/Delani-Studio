@@ -173,12 +173,14 @@ $(document).ready(function () {
 
         if (userName === '') {
             alert('Please enter your user name');
+            return;
         } else if (userEmail === '') {
-            alert('Enter your email address too')
+            alert('Enter your email address too');
+            return;
         } else if (message === '') {
             alert('Input your message below')
         }  else {
-            alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' Thank you for contacting us ' + userName);
+            alert('Hello ' + userName + ' , we have received your message and ' + ' we will get back to you in a few. ' + ' Thank you for contacting us, ' + 'subscribe to stay updated');
         }
 
 

@@ -204,4 +204,10 @@ span {
         margin-top: -400px;
         margin-left: 350px;
     }
+
+      .brandingLogo {
+          margin-top: 180px;
+          position: absolute;
+          margin-right: -50px;
+      }
 }
